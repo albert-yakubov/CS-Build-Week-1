@@ -55,7 +55,7 @@ r_foyer.connectRooms(r_narrow, "e")
 r_narrow.connectRooms(r_foyer, "w")
 r_narrow.connectRooms(r_treasure, "n")
 r_treasure.connectRooms(r_narrow, "s")
-last_element_of_first_list.connectRooms(first_element_of_second_list, "n")
+last_element_of_first_list.connectRooms(first_element_of_second_list, "w")
 
 
 
